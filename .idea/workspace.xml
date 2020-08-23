@@ -29,7 +29,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="gitlive.settings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -43,6 +43,14 @@
       <option name="presentableId" value="Default" />
       <updated>1598175516895</updated>
     </task>
+    <task id="LOCAL-00001" summary="nur ein Kommentar">
+      <created>1598177252198</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598177252198</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -56,5 +64,27 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nur ein Kommentar" />
+    <option name="LAST_COMMIT_MESSAGE" value="nur ein Kommentar" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="310" y="48" key="CommitChangelistDialog2" timestamp="1598177251206">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="310" y="48" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1598177251206" />
+    <state x="93" y="93" width="1313" height="773" key="DiffContextDialog" timestamp="1598177398930">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="93" y="93" width="1313" height="773" key="DiffContextDialog/0.0.1500.960@0.0.1500.960" timestamp="1598177398930" />
+    <state x="252" y="125" key="SettingsEditor" timestamp="1598177465492">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="252" y="125" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1598177465492" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1598177289377">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1598177289377" />
   </component>
 </project>
