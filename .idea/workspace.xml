@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ea22340a-5e73-4a31-a810-78d2b7e08a64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MyGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Testclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Testclass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/MyGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programmierPraktikum2020/MyGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/mainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programmierPraktikum2020/mainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,22 +104,22 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="93" y="93" width="1313" height="773" key="DiffContextDialog/0.0.1500.960@0.0.1500.960" timestamp="1598177398930" />
-    <state width="1458" height="161" key="GridCell.Tab.0.bottom" timestamp="1598279702643">
+    <state width="1458" height="161" key="GridCell.Tab.0.bottom" timestamp="1598342272720">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="161" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1598279702643" />
-    <state width="1458" height="161" key="GridCell.Tab.0.center" timestamp="1598279702643">
+    <state width="1458" height="161" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1598342272720" />
+    <state width="1458" height="161" key="GridCell.Tab.0.center" timestamp="1598342272719">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="161" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1598279702643" />
-    <state width="1458" height="161" key="GridCell.Tab.0.left" timestamp="1598279702642">
+    <state width="1458" height="161" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1598342272719" />
+    <state width="1458" height="161" key="GridCell.Tab.0.left" timestamp="1598342272719">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="161" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1598279702642" />
-    <state width="1458" height="161" key="GridCell.Tab.0.right" timestamp="1598279702643">
+    <state width="1458" height="161" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1598342272719" />
+    <state width="1458" height="161" key="GridCell.Tab.0.right" timestamp="1598342272719">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="161" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1598279702643" />
+    <state width="1458" height="161" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1598342272719" />
     <state width="1458" height="316" key="GridCell.Tab.1.bottom" timestamp="1598279469020">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -138,9 +144,9 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1598177289377" />
-    <state x="413" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1598274852279">
+    <state x="415" y="208" width="672" height="678" key="search.everywhere.popup" timestamp="1598340753774">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="413" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1598274852279" />
+    <state x="415" y="208" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1598340753774" />
   </component>
 </project>

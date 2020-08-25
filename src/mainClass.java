@@ -3,8 +3,15 @@ import java.util.*;
 public class mainClass {
     public static void main(String[] args) {
 
-        MyGraph testGraph = new MyGraph();
+        MyGraph testGraph = new MyGraph("testfile.sec");
+        System.out.println(testGraph.nodes);
+        System.out.println(testGraph.adjacency);
 
+        SearchTree testTree = new SearchTree();
+
+        testTree.TestMe(testGraph);
+
+        /*
         testGraph.addVertex(2);
         testGraph.addVertex(3);
         testGraph.addVertex(4);
@@ -27,10 +34,15 @@ public class mainClass {
         // testGraph.addEdge(6, 7);
 
         // testGraph.deleteEdge(5, 2);
+        String myString = "gsdlg adlfgjk";
+        System.out.println(myString.split(" ")[0]);
+        System.out.println(myString.split(" ")[1]);
 
         System.out.println(testGraph.nodes);
         System.out.println(testGraph.adjacency);
         System.out.println(testGraph.getEdgeCount());
+
+         */
 
 
     }

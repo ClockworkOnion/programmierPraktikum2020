@@ -42,7 +42,7 @@ public interface Graph {
     /**
      * Return the degree of a vertex in the graph
      * @param v Vertex ID 
-     * @return Degree of vertex v if v in the graph, null else
+     * @return Degree of vertex v if v in the graph, 0 else
      */
     public int degree (Integer v);
     

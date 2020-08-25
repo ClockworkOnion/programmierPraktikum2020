@@ -4,14 +4,39 @@ import java.util.*;
 public class MyGraph implements Graph {
     HashSet<Integer> nodes = new HashSet<>(); // set of vertices of the graph
     HashMap<Integer, HashSet<Integer>> adjacency = new HashMap<>(); // sparse adjacency matrix of the graph
+    HashMap<String, Integer> stringsMap = new HashMap<>();
 
+    public MyGraph(String filename) {
+        if (filename != "") {
+            try {
+                File file = new File(filename);
+                FileReader fr = new FileReader(file);
+                BufferedReader br = new BufferedReader(fr);
+                StringBuffer sb = new StringBuffer();
+                String line;
+                while((line  = br.readLine()) != null) {
 
-    public void MyGraph(String filename) {
-        try {
-            File file = new File(filename);
-            FileReader fr = new FileReader(file);
-        } catch (IOException e) {
-            e.printStackTrace();
+                    String[] lines = line.split(" ");
+
+                    if (!stringsMap.containsKey(lines[0])) {
+                        stringsMap.put(lines[0], size());
+                        addVertex(size());
+                    }
+                    if (!stringsMap.containsKey(lines[1])) {
+                        stringsMap.put(lines[1],size());
+                        addVertex(size());
+                    }
+
+                    addEdge(stringsMap.get(lines[0]), stringsMap.get(lines[1]));
+
+                }
+                System.out.println(stringsMap);
+
+                fr.close();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -62,7 +87,7 @@ public class MyGraph implements Graph {
         HashSet<Integer> newNodes = new HashSet<>();
         HashMap<Integer, HashSet<Integer>> newAdjacency = new HashMap<>();
 
-        MyGraph newGraph = new MyGraph();
+        MyGraph newGraph = new MyGraph("");
 
         for (Integer toCopy : nodes) {
             newGraph.addVertex(toCopy.intValue());
