@@ -26,6 +26,7 @@ public class SearchTree {
     }
 
     private boolean solve(Instance i) {
+
         if (i.k < 0) {
             return false;
         }
@@ -73,11 +74,14 @@ public class SearchTree {
     public int solve(MyGraph graph) {
         int tryK = 0;
         Instance tryInstance = new Instance(graph, tryK);
-        solve(tryInstance)
-
+        while (!solve(tryInstance)) {
+            tryK++;
+            tryInstance = new Instance(graph, tryK);
+        }
+        return tryK;
     }
 
-    private void removeSingletons(MyGraph graph) {
+    public void removeSingletons(MyGraph graph) {
         for (Integer entry : graph.nodes) {
             if (graph.getNeighbors(entry).isEmpty()) {
                 graph.deleteVertex(entry);
@@ -91,5 +95,14 @@ public class SearchTree {
             }
         }
          */
+    }
+
+    private void removeDegOne(MyGraph graph) {
+        for (Integer entry : graph.nodes) {
+            if (graph.degree(entry) == 1) {
+                int neighbor = graph.getNeighbors(entry).iterator().next();
+                graph.deleteVertex(neighbor);
+            }
+        }
     }
 }
