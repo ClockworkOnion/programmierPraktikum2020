@@ -22,7 +22,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea22340a-5e73-4a31-a810-78d2b7e08a64" name="Default Changelist" comment="" />
+    <list default="true" id="ea22340a-5e73-4a31-a810-78d2b7e08a64" name="Default Changelist" comment="nur ein Kommentar">
+      <change afterPath="$PROJECT_DIR$/bio-dmelamtx.sec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ca-sandi_authsmtx.sec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outmoreno_zebra_zebra.sec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/MyGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programmierPraktikum2020/MyGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/SearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programmierPraktikum2020/SearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/Testclass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/bio-dmelamtx.sec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/ca-sandi_authsmtx.sec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/mainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programmierPraktikum2020/mainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/outmoreno_zebra_zebra.sec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bio-dmelamtx.sec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca-sandi_authsmtx.sec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outmoreno_zebra_zebra.sec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testfile.sec" beforeDir="false" afterPath="$PROJECT_DIR$/testfile.sec" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,30 +126,30 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="556" y="186" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1598273775007" />
-    <state x="310" y="48" key="CommitChangelistDialog2" timestamp="1598177251206">
+    <state x="310" y="48" key="CommitChangelistDialog2" timestamp="1598343641519">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="310" y="48" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1598177251206" />
+    <state x="310" y="48" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1598343641519" />
     <state x="93" y="93" width="1313" height="773" key="DiffContextDialog" timestamp="1598177398930">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="93" y="93" width="1313" height="773" key="DiffContextDialog/0.0.1500.960@0.0.1500.960" timestamp="1598177398930" />
-    <state width="1458" height="161" key="GridCell.Tab.0.bottom" timestamp="1598342272720">
+    <state width="1458" height="161" key="GridCell.Tab.0.bottom" timestamp="1598353483540">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="161" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1598342272720" />
-    <state width="1458" height="161" key="GridCell.Tab.0.center" timestamp="1598342272719">
+    <state width="1458" height="161" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1598353483540" />
+    <state width="1458" height="161" key="GridCell.Tab.0.center" timestamp="1598353483540">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="161" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1598342272719" />
-    <state width="1458" height="161" key="GridCell.Tab.0.left" timestamp="1598342272719">
+    <state width="1458" height="161" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1598353483540" />
+    <state width="1458" height="161" key="GridCell.Tab.0.left" timestamp="1598353483539">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="161" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1598342272719" />
-    <state width="1458" height="161" key="GridCell.Tab.0.right" timestamp="1598342272719">
+    <state width="1458" height="161" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1598353483539" />
+    <state width="1458" height="161" key="GridCell.Tab.0.right" timestamp="1598353483540">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="161" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1598342272719" />
+    <state width="1458" height="161" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1598353483540" />
     <state width="1458" height="316" key="GridCell.Tab.1.bottom" timestamp="1598279469020">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -147,6 +166,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state width="1458" height="316" key="GridCell.Tab.1.right/0.0.1500.960@0.0.1500.960" timestamp="1598279469020" />
+    <state x="331" y="223" key="IDE.errors.dialog" timestamp="1598343569820">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="331" y="223" key="IDE.errors.dialog/0.0.1500.960@0.0.1500.960" timestamp="1598343569820" />
     <state x="252" y="125" key="SettingsEditor" timestamp="1598177465492">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

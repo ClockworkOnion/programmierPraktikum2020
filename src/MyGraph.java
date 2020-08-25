@@ -7,7 +7,7 @@ public class MyGraph implements Graph {
     HashMap<String, Integer> stringsMap = new HashMap<>();
 
     public MyGraph(String filename) {
-        if (filename != "") {
+        if (!filename.equals("")) {
             try {
                 File file = new File(filename);
                 FileReader fr = new FileReader(file);
@@ -84,9 +84,6 @@ public class MyGraph implements Graph {
 
     @Override
     public Graph getCopy() {
-        HashSet<Integer> newNodes = new HashSet<>();
-        HashMap<Integer, HashSet<Integer>> newAdjacency = new HashMap<>();
-
         MyGraph newGraph = new MyGraph("");
 
         for (Integer toCopy : nodes) {
