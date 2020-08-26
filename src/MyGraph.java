@@ -1,3 +1,5 @@
+import Arithmetik.Graph;
+
 import java.io.*;
 import java.util.*;
 
