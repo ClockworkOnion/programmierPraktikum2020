@@ -18,7 +18,6 @@ public class Player {
         try {
             for (int i = 0; i <= 10; i++ ) {
                 playerSprites[i] = ImageIO.read(new File("assets/Player/p3_walk/PNG/p3_walk" + ((i < 9) ? ("0" + (i + 1)) : ("1" + (i - 9))) + ".png"));
-                // playerSprites[i] = ImageIO.read(new File("assets/Player/p3_walk/PNG/p3_walk0" + i+1 + ".png"));
                 mainSprite = ImageIO.read(new File("assets/Player/p3_walk/PNG/p3_walk01.png"));
             }
         } catch (IOException e) {
