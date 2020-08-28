@@ -1,3 +1,4 @@
+package Platformer;
 public class BoundingBox {
     public Vec2 min;
     public Vec2 max;
