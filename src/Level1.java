@@ -1,12 +1,14 @@
 import javax.imageio.ImageIO;
 import javax.swing.*;
-import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.awt.*;
 
 public class Level1 {
 
+    public static java.util.List<BoundingBox> collisionTiles = new ArrayList<>();
     public static BufferedImage thisLevel;
     static BufferedImage levelMap = null;
     static BufferedImage grassTile = null;
@@ -38,6 +40,7 @@ public class Level1 {
 
                     case colorBlack:
                         levelGraphics.drawImage(grassTile, j * 70, i * 70, null);
+                        collisionTiles.add(new BoundingBox(new Vec2(j * 70, i * 70), new Vec2(j * 70 + 70, i * 70 + 70) ));
                         break;
 
                     default:

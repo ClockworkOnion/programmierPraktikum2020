@@ -27,4 +27,17 @@ public class Vec2 {
 			return new Vec2(x / b.x, y / b.y);
 		}
 
+		public Vec2 inverse() {
+			return new Vec2(-x, -y);
+		}
+
+		public String direction() {
+			if (Math.abs(x) > Math.abs(y)) {
+				return (x > 0 ? "right" : "left");
+			} else {
+				return (y > 0 ? "down" : "up");
+			}
+
+
+		}
 	};
