@@ -23,49 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea22340a-5e73-4a31-a810-78d2b7e08a64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Datenbanken/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Datenbanken/a1/DoubleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Datenbanken/a1/PerformanceTestForList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Datenbanken/a1/SimpleList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Datenbanken/a2/Grid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Datenbanken/a2/GridImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Datenbanken/a3/BloomFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Datenbanken/a3/BloomFilterCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Datenbanken/a3/ColumnImprint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Datenbanken/a3/IBloomFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Datenbanken/hashing/DefaultHashFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Datenbanken/hashing/DefaultHashFunctionGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Datenbanken/hashing/HashFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Datenbanken/hashing/HashFunctionGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Platformer/BoundingBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Platformer/Level1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Platformer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Platformer/MyGraphics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Platformer/Platformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Platformer/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Platformer/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Platformer/Vec2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Platformer/platformer_projekt.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unitTests/Datenbanken/a2/GridImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/Level1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/Platformer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/Platformer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/Platformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/Vec2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/programmierPraktikum2020/mainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programmierPraktikum2020/mainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmierPraktikum2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/programmierPraktikum2020.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoundingBox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Level1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyGraphics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Platformer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vec2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Datenbanken/a3/BloomFilterCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Datenbanken/a3/BloomFilterCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Datenbanken/a3/ColumnImprint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Datenbanken/a3/ColumnImprint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -260,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598597552805</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="bloom Filter angefangen">
+      <created>1598627883259</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598627883259</updated>
+    </task>
+    <task id="LOCAL-00010" summary="bloom Filter angefangen">
+      <created>1598627921519</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598627921519</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,21 +257,22 @@
     <MESSAGE value="Man kann hin und her scrollen" />
     <MESSAGE value="player ist da" />
     <MESSAGE value="letzter Commit beim Platformer" />
-    <option name="LAST_COMMIT_MESSAGE" value="letzter Commit beim Platformer" />
+    <MESSAGE value="bloom Filter angefangen" />
+    <option name="LAST_COMMIT_MESSAGE" value="bloom Filter angefangen" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="556" y="186" key="#com.intellij.ide.util.MemberChooser" timestamp="1598609763348">
+    <state x="936" y="215" key="#com.intellij.ide.util.MemberChooser" timestamp="1598632122081">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="556" y="186" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1598609763348" />
+    <state x="936" y="215" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1598632122081" />
     <state x="185" y="262" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598429046261">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="185" y="262" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1500.960@0.0.1500.960" timestamp="1598429046261" />
-    <state x="310" y="48" key="CommitChangelistDialog2" timestamp="1598597551625">
+    <state x="310" y="48" key="CommitChangelistDialog2" timestamp="1598627919935">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="310" y="48" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1598597551625" />
+    <state x="310" y="48" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1598627919935" />
     <state x="93" y="93" width="1313" height="773" key="DiffContextDialog" timestamp="1598177398930">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -342,10 +317,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="252" y="125" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1598177465492" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1598458530930">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1598627924244">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1598458530930" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1598627924244" />
     <state x="474" y="372" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598616191589">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

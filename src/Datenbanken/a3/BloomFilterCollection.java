@@ -1,90 +1,108 @@
 package Datenbanken.a3;
 
+import java.lang.reflect.Array;
 import java.util.Collection;
 import java.util.Iterator;
 
 public class BloomFilterCollection<E> implements Collection<E> {
 
-    // TODO
+    IBloomFilter<E> bloomFilter;
+    Collection<E> collection;
 
-    public BloomFilterCollection(IBloomFilter<E> bitFilter) {
-        // TODO
+
+    public BloomFilterCollection(IBloomFilter<E> bitFilter, Collection<E> collection) {
+        bloomFilter = bitFilter;
+        this.collection = collection;
     }
 
     @Override
     public int size() {
-        // TODO
-        return 0;
+        return collection.size();
     }
 
     @Override
     public boolean isEmpty() {
-        // TODO
-        return false;
+        return (collection.size() == 0);
     }
 
     @Override
     public boolean contains(Object o) {
-        // TODO
-        return false;
+        if (!bloomFilter.canContain((E) o)) {
+            return false;
+        } else {
+            return collection.contains(o);
+        }
     }
 
     @Override
     public Iterator<E> iterator() {
-        // TODO
-        return null;
+        return collection.iterator();
     }
 
     @Override
     public Object[] toArray() {
-        // TODO
-        return null;
+        return collection.toArray();
     }
 
     @Override
     public <T> T[] toArray(T[] a) {
-        // TODO
-        return null;
+        return collection.toArray(a);
     }
 
     @Override
     public boolean add(E e) {
-        // TODO
-        return false;
+        bloomFilter.insert(e);
+        return collection.add(e);
     }
 
     @Override
     public boolean remove(Object o) {
-        // TODO
+        if (bloomFilter.canContain((E) o)) {
+            boolean removed = collection.remove(o);
+            bloomFilter.rebuild(collection);
+            return removed;
+        }
         return false;
     }
 
     @Override
     public boolean containsAll(Collection<?> c) {
-        // TODO
-        return false;
+        for (Object o : c) {
+            if (!contains(o)) { return false; }
+        }
+        return true;
     }
 
     @Override
     public boolean addAll(Collection<? extends E> c) {
-        // TODO
-        return false;
+        for (E e : c) {
+            bloomFilter.insert(e);
+        }
+        return collection.addAll(c);
     }
 
     @Override
     public boolean removeAll(Collection<?> c) {
-        // TODO
-        return false;
+        boolean didSomething = false;
+        for (Object o : c) {
+            if (bloomFilter.canContain((E)o)) {
+                collection.remove(o);
+                didSomething = true;
+            }
+        }
+        if (didSomething) { bloomFilter.rebuild(collection); return true; } else { return false; }
     }
 
     @Override
     public boolean retainAll(Collection<?> c) {
-        // TODO
-        return false;
+        boolean retained =  collection.retainAll(c);
+        bloomFilter.rebuild(collection);
+        return retained;
     }
 
     @Override
     public void clear() {
-        // TODO
+        collection.clear();
+        bloomFilter.rebuild(collection);
     }
 }
